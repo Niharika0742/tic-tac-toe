@@ -1,0 +1,23 @@
+/* src/GameBoard.css */
+.game-board {
+  width: 300px; /* Set a fixed width for the game board */
+  margin: 0 auto;
+}
+
+.square {
+  width: 100px; /* Width of each square */
+  height: 100px; /* Height of each square */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.winner-message {
+  margin-top: 20px;
+  font-size: 24px;
+  color: #28a745;
+  font-weight: bold;
+}
